@@ -1,0 +1,93 @@
+/*
+
+THEME : Green
+
+#C8E6C9  100  green
+#4CAF50  500  green
+#2E7D32  800  green
+#F5F5F5  100  grey
+#9E9E9E  500  grey
+#FFFFFF       white
+
+*/
+
+/**********************
+ * GRID
+ **********************/
+.row-left {
+	background:#4CAF50
+}
+.row-right {
+	background:#F5F5F5
+}
+
+/**********************
+ * TEXT
+ **********************/
+h1 {
+	color:#FFFFFF
+}
+
+/**********************
+ * FORM
+ **********************/
+input[type=text], input[type=password] {
+	border:3px solid #4CAF50
+}
+input[type=text]:focus, input[type=password]:focus {
+	background:#C8E6C9;
+	border:3px solid #C8E6C9
+}
+input::-webkit-input-placeholder {
+	color:#9E9E9E
+}
+input::-moz-placeholder {
+	color:#9E9E9E
+}
+input:-moz-placeholder {
+	color:#9E9E9E
+}
+input:-ms-input-placeholder {
+	color:#9E9E9E
+}
+input:focus::-webkit-input-placeholder {
+	color:#FFFFFF
+}
+input:focus::-moz-placeholder {
+	color:#FFFFFF
+}
+input:focus:-moz-placeholder  {
+	color:#FFFFFF
+}
+input:focus:-ms-input-placeholder {
+	color:#FFFFFF
+}
+button[type=submit] {
+	border:3px solid #4CAF50;
+	color:#FFFFFF;
+	background:#4CAF50
+}
+button[type=submit]:hover {
+	background:#2E7D32;
+	border:3px solid #2E7D32
+}
+label::before {
+	border:3px solid #4CAF50
+}
+/* Checkbox */
+input[type=checkbox] + label::after {
+	background:#FFFFFF;
+	border:3px solid #4CAF50
+}
+input[type=radio] + label::after {
+	background:#FFFFFF;
+	border:3px solid #4CAF50
+}
+/* :checked */
+input[type=checkbox]:checked + label::before, input[type=radio]:checked + label::before {
+	background:#4CAF50;
+	border:3px solid #4CAF50
+}
+.form-forgot  {
+	color:inherit
+}
