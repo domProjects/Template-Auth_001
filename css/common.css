@@ -100,7 +100,7 @@ form {
 	display:block;
 	width:100%;
 }
-input[type=text], input[type=password] {
+input[type="text"], input[type="password"] {
 	display:inline-block;
 	width:inherit;
 	margin-bottom:2rem;
@@ -111,7 +111,7 @@ input[type=text], input[type=password] {
 		 -o-transition:all .5s ease;
 			transition:all .5s ease;
 }
-input[type=text]:focus, input[type=password]:focus {
+input[type="text"]:focus, input[type="password"]:focus {
 	outline:none;
 }
 input::-webkit-input-placeholder {
@@ -138,7 +138,7 @@ input:-ms-input-placeholder {
 		 -o-transition:all .5s ease;
 			transition:all .5s ease;
 }
-button[type=submit] {
+button[type="submit"] {
 	display:inline-block;
 	width:inherit;
 	padding:1.5rem;
@@ -152,7 +152,7 @@ button[type=submit] {
 		 -o-transition:all .2s ease;
 			transition:all .2s ease;
 }
-input[type=checkbox], input[type=radio] {
+input[type="checkbox"], input[type="radio"] {
 	z-index:-1;
 	position:absolute;
 	opacity:0;
@@ -182,7 +182,7 @@ label::before {
 	content:' ';
 }
 /* Checkbox */
-input[type=checkbox] + label::after {
+input[type="checkbox"] + label::after {
 	content:' ';
 	top:.25em;
 	left:.25em;
@@ -190,7 +190,7 @@ input[type=checkbox] + label::after {
 	height:1em;
 }
 /* Radio */
-input[type=radio] + label::before {
+input[type="radio"] + label::before {
 	border-radius:50%;
 }
 input[type=radio] + label::after {
@@ -202,14 +202,14 @@ input[type=radio] + label::after {
 	border-radius:50%;
 }
 /* :checked */
-input[type=checkbox]:checked + label::after, input[type=radio]:checked + label::after {
+input[type="checkbox"]:checked + label::after, input[type="radio"]:checked + label::after {
 	-webkit-transform:scale(1);
 	   -moz-transform:scale(1);
 		-ms-transform:scale(1);
 		 -o-transform:scale(1);
 			transform:scale(1);
 }
-input[type=checkbox] + label::after, input[type=radio] + label::after {
+input[type="checkbox"] + label::after, input[type="radio"] + label::after {
 	-webkit-transform:scale(0);
 	   -moz-transform:scale(0);
 		-ms-transform:scale(0);
