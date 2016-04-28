@@ -90,6 +90,7 @@ h1 {
 	font-weight:700;
 	letter-spacing:.3rem;
 	text-transform:uppercase;
+	cursor:default;
 }
 
 /**********************
@@ -203,11 +204,17 @@ input[type=radio] + label::after {
 /* :checked */
 input[type=checkbox]:checked + label::after, input[type=radio]:checked + label::after {
 	-webkit-transform:scale(1);
-	transform:scale(1);
+	   -moz-transform:scale(1);
+		-ms-transform:scale(1);
+		 -o-transform:scale(1);
+			transform:scale(1);
 }
 input[type=checkbox] + label::after, input[type=radio] + label::after {
 	-webkit-transform:scale(0);
-	transform:scale(0);
+	   -moz-transform:scale(0);
+		-ms-transform:scale(0);
+		 -o-transform:scale(0);
+			transform:scale(0);
 }
 .form-forgot  {
 	display:inline-block;
