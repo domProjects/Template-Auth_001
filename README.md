@@ -3,6 +3,10 @@
 
 # Template - Auth_001
 
+## Todo
+* Responsive all devices
+* Panel forgot with effect flip
+* Connection with Facebook, Google+ and Twitter
 
 ## Credits
 
